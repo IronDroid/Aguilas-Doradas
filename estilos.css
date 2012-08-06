@@ -28,12 +28,9 @@ nav ul li{
 }
 nav ul li:hover{
 	background:0;
-	-webkit-box-shadow: 4px 4px 1em rgba(0, 0, 0, 0.19999999999999996),
-		inset 0 0 2.5em rgba(255, 255, 255, 0.6);
-	-moz-box-shadow: 4px 4px 1em rgba(0, 0, 0, 0.19999999999999996), inset 0
-		0 2.5em rgba(255, 255, 255, 0.6);
-	box-shadow: 4px 4px 1em rgba(0, 0, 0, 0.19999999999999996), inset 0 0
-		2.5em rgba(255, 255, 255, 0.6)
+	-webkit-box-shadow: 4px 4px 1em rgba(0, 0, 0, 0.19999999999999996), inset 0 0 2.5em rgba(255, 255, 255, 0.6);
+	-moz-box-shadow: 4px 4px 1em rgba(0, 0, 0, 0.19999999999999996), inset 0 0 2.5em rgba(255, 255, 255, 0.6);
+	box-shadow: 4px 4px 1em rgba(0, 0, 0, 0.19999999999999996), inset 0 0 2.5em rgba(255, 255, 255, 0.6)
 }
 nav ul li a{
 	color: #DDD;
@@ -56,6 +53,7 @@ p{
 	background: #1A9DE0;
 	border-radius: 0.5em;
 	display: inline-block;
+	height: 350px;
 	margin: 1em 1em 1em;
 	min-width:  200px;
 	min-height: 50px;
@@ -70,6 +68,7 @@ p{
 	background: #1A9DE0;
 	border-radius: 0.5em;
 	display: inline-block;
+	height: 350px;
 	margin: 1em 1em 1em;
 	min-width:  20%;
 	min-height: 50px;
@@ -82,8 +81,8 @@ p{
 }
 #contenedor article:hover{
 	background: rgba(0,0,255,0.5);
-	transform: rotate(-2deg) translateX(30px);
-	-webkit-transform: rotate(-2deg) translateX(30px);
+	transform: translate(30px,0px);
+	-webkit-transform: translate(30px,0px);
 }
 #primer-parrafo{
 	background: white;
@@ -114,8 +113,8 @@ p{
 	border-right:1px solid #fff;
 }
 .menu ul a{
-	height:44px;
-	line-height:44px
+	height:60px;
+	line-height:60px
 }
 .naranja{
 	color: orange;
