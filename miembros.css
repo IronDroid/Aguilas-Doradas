@@ -3,20 +3,18 @@ article{
 	margin: 10px;
 	width: 700px;
 }
-article div{
-	display: inline-block;
-}
+
 aside{
 	background: rgba(11,11,111,0.5);
 	float: right;
-	padding: 10px;
 	margin: 10px;
+	padding: 10px;
 	height: 70%;
 }
 section{
 	padding: 10px;
 	margin: 50px;
 }
-#imagen{
-	padding:16px auto;
+.linea{
+	display: inline-block;
 }

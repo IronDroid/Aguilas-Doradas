@@ -1,0 +1,36 @@
+article{
+	display: inline-block;
+}
+article img{
+	-webkit-transition: .2s;
+}
+article:hover img{
+	-webkit-transform:scale(0.9);
+	-webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.4, transparent), to(white));
+}
+.a{
+	position: relative;
+}
+.sobre{
+	border:none;
+	left:0px;
+	position:absolute;
+	top:0px;
+}
+.contener{
+	background: white;
+	border-radius: 8px;
+	margin: 1em auto;
+	padding: 1em 0;
+	width: 70%;
+}
+#giro:hover #img1{
+	-webkit-transform: scale(0.8) rotate(-20deg) translateX(-80px) translateY(-10px);
+}
+#giro:hover #img2{
+	-webkit-transform: scale(0.8) rotate(20deg) translateX(80px) translateY(-10px);
+}
+#giro:hover #img3{
+	-webkit-transform: scale(0.8) translateY(-10px);
+}
+

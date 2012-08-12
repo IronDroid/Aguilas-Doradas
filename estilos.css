@@ -25,6 +25,7 @@ nav ul li{
 	padding:10px 0;
 	vertical-align: top;
 	width:25%;
+	-webkit-transition: .5s;
 }
 nav ul li:hover{
 	background:0;
@@ -46,7 +47,7 @@ p{
 	background: white;
 	border-radius: 0.5em;
 	margin: 1em auto;
-	padding: 1em auto;
+	padding: 1em 0;
 	width: 70%;
 }
 #contenedor-article1{
