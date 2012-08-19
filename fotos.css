@@ -2,10 +2,12 @@ article{
 	display: inline-block;
 }
 article img{
-	-webkit-transition: .2s;
+	border-radius: 8px;
+	-webkit-transition: .5s;
 }
 article:hover img{
-	-webkit-transform:scale(0.9);
+	border-radius: 8px;
+	-webkit-transform:scale(0.8);
 	-webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.4, transparent), to(white));
 }
 .a{
