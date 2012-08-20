@@ -3,6 +3,8 @@ article{
 }
 article img{
 	border-radius: 8px;
+	box-shadow: 0 0 0 10px rgba(255,255,255,0.5), inset 0 0 10px rgba(115,114, 23, 0.8);
+	margin: 20px;
 	-webkit-transition: .5s;
 }
 article:hover img{
@@ -20,11 +22,12 @@ article:hover img{
 	top:0px;
 }
 .contener{
-	background: white;
 	border-radius: 8px;
 	margin: 1em auto;
-	padding: 1em 0;
-	width: 70%;
+	min-width: 310px;
+	padding: 1em 1em;
+	text-align: center;
+	width: 80%;
 }
 #giro:hover #img1{
 	-webkit-transform: scale(0.8) rotate(-20deg) translateX(-80px) translateY(-10px);
@@ -35,4 +38,3 @@ article:hover img{
 #giro:hover #img3{
 	-webkit-transform: scale(0.8) translateY(-10px);
 }
-

@@ -10,8 +10,8 @@ footer{
 }
 h1{
 	text-align: center;
-	text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-	padding-top: 50px;
+	text-shadow: 5px 5px 10px rgba(255,255,255,0.7);
+	padding-top: 60px;
 }
 nav ul{
 	font-size:0;
@@ -30,7 +30,7 @@ nav ul li{
 }
 nav ul li:hover{
 	background: 0;
-	-webkit-box-shadow: 4px 4px 1em rgba(0, 0, 0, 0.19999999999999996), inset 0 0 2.5em rgba(255, 255, 255, 0.6);
+	box-shadow: 4px 4px 1em rgba(0, 0, 0, 0.19999999999999996), inset 0 0 3.5em rgba(255, 255, 255, 0.8);
 }
 nav ul li a{
 	color: #DDD;
@@ -46,7 +46,6 @@ p{
 	text-align: center;
 }
 #contenedor{
-	background: white;
 	border-radius: 0.5em;
 	margin: 1em auto;
 	padding: 1em 0;
@@ -95,7 +94,7 @@ p{
 	-webkit-transition: 1s;
 }
 #primer-parrafo:hover{
-	background: rgba(255,255,255,.5);
+	background: rgba(255,255,255,1);
 	color: black;
 	border-radius: 0.5em;
 	display: block;
@@ -105,19 +104,17 @@ p{
 }
 
 .menu{
-	background: black;
-	top:0px;
+	background: rgba(0,0,0,1);
 	position: fixed;
+	top:0px;
+	min-width: 50%;
 	width: 100%;
 }
 .menu ul{
 	min-width:320px;
 	padding-top:0;
 	text-align:center;
-	li-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
-	box-sizing:border-box;
-	width:auto;
 }
 .menu ul:nth-child(even){
 	background:none;
@@ -134,4 +131,13 @@ p{
 }
 .naranja:hover{
 	text-shadow: 5px 5px 2px rgba(0,0,0,0.3);
+}
+@media screen and (max-width: 480px){
+	nav ul li{
+		width: 50%;
+	}
+}
+#img img{
+	border-radius: 10px;
+	box-shadow: 4px 4px 1em rgba(0, 0, 0, 0.99999999999999996), inset 0 0 3.5em rgba(255, 255, 255, 0.8);
 }
