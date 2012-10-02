@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+.contenedor{
+    background: rgba(0,0,2550,0.5);
+    width: 100%;
+}
+.contenedor .club{
+    display: inline-block;
+}
